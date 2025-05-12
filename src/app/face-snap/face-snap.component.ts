@@ -12,11 +12,13 @@ export class FaceSnapComponent implements OnInit {
   description!: string;
   createdAt!: Date;
   snaps!: number;
+  imageUrl!: string;
 
   ngOnInit(): void {
     this.title = 'Captaine América';
     this.description = 'Le premier Avenger';
     this.createdAt = new Date();
     this.snaps = 0;
+    this.imageUrl = 'https://cdn.pixabay.com/photo/2023/06/29/08/22/ai-generated-8095915_960_720.png'
   }
 }
