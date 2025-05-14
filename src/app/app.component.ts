@@ -7,7 +7,7 @@ import { HeaderComponent } from './header/header.component';
   standalone: true,
   imports: [
     HeaderComponent,
-    FaceSnapListComponent,
+    FaceSnapListComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
