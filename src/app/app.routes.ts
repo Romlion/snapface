@@ -6,3 +6,4 @@ export const routes: Routes = [
     { path: 'facesnaps', component: FaceSnapListComponent },
     { path : '', component: LandingPageComponent}
 ];
+
